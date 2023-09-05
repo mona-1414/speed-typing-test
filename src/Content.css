@@ -1,0 +1,110 @@
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+.difficulty-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+
+
+.all-content{
+    margin-bottom: 0%;
+    margin-top:7%;
+    flex:1;
+}
+h1{
+    font-size: 40px;
+    margin:40px;
+    font-weight:bold;
+}
+
+
+.difficulty-btn{
+    padding:15px 30px;
+    font-size: medium;
+    width:auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid #000;
+    color: black;
+    border-radius: 10px;
+}
+
+.difficulty-btn.selected{
+    background-color: #000;
+    color:white;
+}
+
+.start-btn{
+    padding:12px 25px;
+    font-size:larger;
+    width:auto;
+    height:auto;
+    background-color: black;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+}
+
+.start-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/*change it so it's the same font as the universal font*/
+.textbox::placeholder{
+    font-style: normal;
+}
+
+.textbox{
+    resize: none;
+    align-self: center;
+    overflow: hidden;
+    width:80%;
+    height: 30vh;
+    font-size: 20px;
+
+}
+
+
+  
+.word {
+    display: inline-block;
+    margin-right: 4px; 
+  }
+  
+  .current-word {
+    background-color: rgb(97, 197, 97);
+  }
+  
+
+.textbox:focus{
+    border: 2px solid black;
+}
+
+
+.try-btn{
+    padding:15px 30px;
+    font-size: medium;
+    width:auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid #000;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+/* original class names for buttons */
+/*
+<button onClick={()=>setSelectedDifficulty('easy')} className={selectedDifficulty ==='easy' ? 'selected' : ''} >Easy</button>
+<button onClick={()=>setSelectedDifficulty('medium')} className={selectedDifficulty ==='medium' ? 'selected' : ''}>Medium</button>
+<button onClick={()=>setSelectedDifficulty('hard')} className={selectedDifficulty ==='hard' ? 'selected' : ''}>Hard</button>
+*/

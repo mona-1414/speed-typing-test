@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About
 
-This project was created entirely by me because I love speed typing. I hope you do, too.
+This project was created entirely by me because I love improving and testing my typing speed. You can try it [here](https://main.dt2vxbfryjdw7.amplifyapp.com/).
